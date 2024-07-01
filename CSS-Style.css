@@ -11,15 +11,13 @@ body, html {
 
 .container {
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 4;
     grid-gap: 1.35%;
     width: 95%;
     max-width: 1000px;
     height: 95%;
     max-height: 750px;
-    grid-template-rows: 24% 24% 24% 24%;
-    grid-template-columns: 39% 17% 17% 24%;
+    grid-template-rows: 23% 22.6% 1.7% 0.4% 22.6% 23%;
+    grid-template-columns: 39% 17% 17% 23%;
 }
 
 .container img {
@@ -56,25 +54,31 @@ body, html {
 
 .section6 {
     grid-column: 1;
-    grid-row: 3 / 5;
+    grid-row: 5 / 7;
 }
 
 .section7 {
     grid-column: 2 / 4;
-    grid-row: 3;
+    grid-row: 5;
 }
 
 .section8 {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 6;
 }
 
 .section9 {
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 6;
 }
 
 .section10 {
     grid-column: 4;
-    grid-row: 3 / 5;
+    grid-row: 5 / 7;
+}
+
+.divisor {
+    grid-column: 1 / 5;
+    grid-row: 3;
+    border-bottom: solid 1px #F8F8F8;
 }
